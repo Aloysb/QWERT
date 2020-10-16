@@ -1,0 +1,89 @@
+@include placeholder {
+  color: lighten($text-color, 10%);
+}
+
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="month"],
+input[type="week"],
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="tel"],
+input[type="time"],
+input[type="url"],
+textarea {
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
+  border-radius: 10px;
+  background-color: white;
+  border: 1px solid #cccccc;
+  color: #000;
+  outline: 0px;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="date"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="month"]:focus,
+input[type="week"]:focus,
+input[type="email"]:focus,
+input[type="number"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="time"]:focus,
+input[type="url"]:focus,
+textarea:focus {
+  border-color: #999999;
+  outline: none;
+}
+
+/*Home page login*/
+.login-container {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.login-form-1 {
+  padding: 5%;
+  // box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+
+  h3 {
+    color: #333;
+  }
+
+  .form-layout {
+    max-width: 350px;
+  }
+
+  .btnSubmit {
+    font-weight: 600;
+    color: #fff;
+    background-color: #0095D9;
+  }
+
+  .ForgetPwd {
+    color: #0095D9;
+    font-weight: 600;
+    text-decoration: none;
+    float: right;
+  }
+}
+
+.login-container form {
+  padding: 10%;
+}
+.btnSubmit {
+  border: none;
+  cursor: pointer;
+}
+
+.grid-xs-12 .col-md-6 {
+  margin: auto;
+  height: 100%;
+}

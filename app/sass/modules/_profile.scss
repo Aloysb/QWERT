@@ -1,0 +1,191 @@
+body{
+    overflow-x: hidden;
+}
+
+.head-profile{
+    background: white;
+    min-width: 100vw;
+    margin: 0;
+    padding: 0;
+    z-index: 98;
+    position: absolute;
+}
+
+#profile-nav{
+    background: white;
+    z-index: 99;
+    height: auto;
+    max-width: 100vw;
+    .menu{
+        flex: 0 0 10%;
+
+        .login-btn{
+            margin-left: 0;
+            margin-right: 75px;
+        }
+    }
+
+    .menu-middle{
+        flex: 1 1 0;
+        justify-content: center;
+        flex-flow: row wrap;
+        align-items: flex-start;
+        
+        .user__avatar__link{
+            position: relative;
+            cursor: pointer;
+             &:hover:after{
+                content: "Changer mon image de profile";
+                color: white;
+                display: flex;
+                padding-left: 1em;
+                justify-content: center;
+                align-items: center;
+                font-weight: 600;
+                position: absolute;
+                top:1em;
+                left: 1em;
+                width: calc(100% - 2em);
+                height: calc(100% - 2em);
+                background-color: black;
+                border-radius: 50%;
+                opacity: .75;
+                cursor: pointer;
+            };
+        }
+
+        .user__avatar--large{
+            cursor: pointer;
+            margin: 1em;
+            border-radius: 10px;
+            position: relative;
+        }
+
+        .user__name{
+            color: #5a5a5a;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .btn{
+            margin-top: 1em;
+            margin-left: 1em;
+            font-size: .8rem;
+            border-radius: 10px;
+            font-weight: 600;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+        }
+    }
+}
+
+.container-profil{
+    background-color: #F9F9F9;
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    // position: absolute;
+    // top: 0;
+    // left: 0;
+    min-height: 100vh;
+    padding-top: 190px;
+    padding-bottom: 190px;
+    // width: 100vw;
+    // z-index: -1;
+
+    .blop{
+        position: absolute;
+    }
+    .blop__one{
+        top: -30%;
+        right: -50%;
+        width: 100%;
+        z-index: 0;
+    }
+
+    .blop__two{
+                z-index: 0; 
+        width: 50%;
+        bottom: 0%;
+        left: -70%;
+    }
+
+    .row-profil{
+        min-height: 85vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .col-profil{
+        background-color: #fff;
+        padding: 3em;
+        box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05), 0 -4px 6px -2px rgba(0, 0, 0, 0.05);
+        border-radius: 10px;
+    }
+
+    tr{
+        display: flex;
+        flex-flow: row wrap;
+        // max-width: 70%;
+        margin: 0 auto;
+    }
+    td{
+        border: none;
+                flex: 2 1 70%;
+                display: flex;
+                align-items: center;
+                color: #5a5a5a;
+
+    
+        &:first-child{
+                    flex: 1 1 25%;
+                    justify-content: flex-start;
+        };
+    }
+    .titlevalue{
+        color: #5a5a5a;
+        background-color: #fff;
+        border: 1px solid #0095d9;
+        font-weight: 500;
+        opacity: .8;
+        width: 100%;
+        flex: 1 1 70%;
+        border-radius: 10px;
+        padding: .5em;
+        display: flex;
+        align-items: center;
+        &:disabled{
+            background-color: #f9f9f9;
+            border: none;
+        }
+
+        &--subscription{
+            border: none;
+             background-color: #f9f9f9;
+        }
+    }
+}
+
+html,body{
+    min-height: 100vh;
+}
+
+//Modal profile picture
+.avatarModal{
+    .avatar__current{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+                    padding-bottom: 3em;
+       
+        .cr-boundary{
+
+         img{
+            height: 100%;
+            width: auto;
+        }
+    }
+    }
+}

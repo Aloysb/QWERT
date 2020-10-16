@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="512" height="512" viewBox="0 0 512 512">
+  <defs>
+    <clipPath id="clip-Icon_-_Search">
+      <rect width="512" height="512"/>
+    </clipPath>
+  </defs>
+  <g id="Icon_-_Search" data-name="Icon - Search" clip-path="url(#clip-Icon_-_Search)">
+    <g id="shapes-and-symbols_1_" data-name="shapes-and-symbols (1)" transform="translate(0.377 0.59)">
+      <g id="Group_1744" data-name="Group 1744">
+        <path id="Path_1162" data-name="Path 1162" d="M508.289,478.158,359.728,329.6a201.388,201.388,0,0,0,45.139-127.163C404.867,90.812,314.055,0,202.433,0S0,90.812,0,202.434,90.812,404.868,202.434,404.868A201.394,201.394,0,0,0,329.6,359.729L478.158,508.29a10.657,10.657,0,0,0,15.069,0l15.064-15.065A10.655,10.655,0,0,0,508.289,478.158ZM202.434,362.25c-88.128,0-159.816-71.688-159.816-159.816S114.306,42.618,202.434,42.618,362.25,114.306,362.25,202.434,290.561,362.25,202.434,362.25Z" transform="translate(0 0)" fill="#0095d9"/>
+      </g>
+    </g>
+  </g>
+</svg>

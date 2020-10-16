@@ -1,0 +1,608 @@
+[class^="grid-"],
+[class*=" grid-"] {
+    // background: lightblue;
+    // height: 50px;
+    // border: 1px solid gray;
+    margin: auto;
+}
+
+html,
+body {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+.hero-section {
+    position: relative;
+    min-height: 80vh;
+    background: url("../assets/images_proto/Doctofiche-Illustration-01.png");
+    background-repeat: no-repeat;
+
+    background-position: 100% 45%;
+    background-origin: content-box;
+    background-size: 65%;
+    max-width: 1000px;
+    margin: auto;
+
+    @media only screen and (max-height: 710px) {
+        background-size: contain;
+    }
+
+    @media only screen and (max-width: 800px) {
+        background-size: 100%;
+        margin-bottom: 4em;
+    }
+
+    .col {
+        padding: 0 2em;
+    }
+
+    h1 {
+        padding-top: 2em;
+        font-style: italic;
+        font-weight: 800;
+        line-height: 100%;
+        letter-spacing: 1.1px;
+        font-size: 3rem;
+
+        @media only screen and (max-width: 700px) {
+            padding-top: 0em;
+        }
+    }
+
+    &>.container {
+        @media only screen and (min-width: 800px){
+            
+        padding: 1em 5em;
+        }
+
+    }
+
+    .blop__zero {
+        position: absolute;
+        z-index: -1;
+        top: -50%;
+        right: -50%;
+    }
+
+    .blop__first {
+        position: absolute;
+        height: 70%;
+        width: auto;
+        top: 50%;
+        left: -25%;
+        z-index: -1;
+
+        @media only screen and (max-width: 1200px) {
+            left: -40%;
+        }
+
+        @media only screen and (max-width: 1000px) {
+            height: 30%;
+            left: -30%;
+            top: 75%;
+        }
+    }
+
+    @include until($tablet) {
+        margin-top: 83px;
+    }
+
+    @media only screen and (max-width: 1000px) {
+        background-position: 100% 0%;
+
+        h1 {
+            // padding-top: 6em;
+        }
+    }
+}
+
+.about {
+    .blops__three {
+        position: relative;
+
+
+        .blop {
+            position: absolute;
+            top: -35%;
+            left: -10%;
+            z-index: -1;
+            height: 150%;
+            width: 120%;
+
+
+            @media only screen and (max-width: 800px) {
+                top: -5%;
+                left: -100%;
+                height: 110%;
+                width: auto;
+                opacity: .4;
+            }
+        }
+    }
+
+    h1 {
+        font-style: italic;
+        font-weight: 800;
+        letter-spacing: 105%;
+        font-size: 3rem;
+        padding-bottom: .7em;
+        text-align: center;
+    }
+
+    h4 {
+        padding-bottom: .2em;
+        text-align: left;
+    }
+
+    p {
+        font-size: .9rem;
+        padding-bottom: .8em;
+        opacity: .5;
+        font-weight: 500;
+        line-height: 155%;
+    }
+
+    .col {
+        min-height: auto;
+    }
+
+    .portrait {
+        padding-top: 0%;
+        position: relative;
+        top: 250px;
+
+        @media only screen and (max-width: 1000px) {
+            padding-top: 0;
+            top: 0;
+        }
+
+        img {
+            height: auto;
+            width: auto;
+
+            @media only screen and (min-width: 800px) {
+                // margin-top: 5em;
+
+            }
+        }
+
+        h4 {
+            text-align: center;
+        }
+    }
+}
+
+.services {
+    position: relative;
+    background-image: url("../assets/blops/Doctofiche Blobs_Main grey blob.png");
+    background-position: 0 50%;
+    background-origin: border-box;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 1000px;
+    margin: 1em auto;
+
+    @media only screen and (min-width: 1000px) {
+        padding-bottom: 6em;
+    }
+
+    @media only screen and (max-width: 700px) {
+        background-position: center;
+    }
+
+    .blop__four {
+        position: absolute;
+        z-index: -1;
+        left: -25%;
+        top: -50%;
+        width: 125%;
+        height: auto;
+    }
+
+
+    h1 {
+        font-style: italic;
+        font-weight: 800;
+        letter-spacing: 1.1px;
+        font-size: 3rem;
+        padding-bottom: 0em;
+    }
+
+    .row {
+        max-width: 1000px;
+        margin: 0 auto;
+        margin-top: 3em;
+    }
+
+    .icon {
+        height: 5rem;
+
+        img {
+            height: 100%;
+            width: auto;
+        }
+    }
+
+    h5 {
+        font-size: 1.2rem;
+        opacity: .8;
+    }
+
+    p {
+        font-size: .85rem;
+        padding-right: 1.3em;
+        text-align: justify;
+        opacity: 0.8;
+    }
+
+    .col-sm {
+        margin: 0;
+        padding: 20px 0;
+    }
+
+    .col-sm+.col-sm {
+        padding-left: .8em;
+    }
+
+    @include until($tablet) {
+        background-size: cover;
+    }
+}
+
+.custom-spacing {}
+
+.testimonials-section {
+    position: relative;
+
+    .blop__five {
+        position: absolute;
+        z-index: -1;
+        height: 250%;
+        width: auto;
+        position: absolute;
+        transform: translate(-40%, -50%);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+
+        @media only screen and (max-width: 800px) {
+            height: 230%;
+        }
+    }
+
+    h1 {
+        padding-bottom: 1em;
+        font-weight: 800;
+        letter-spacing: 1.1px;
+        font-size: 3rem;
+        font-style: italic;
+
+        @media only screen and (max-width: 800px) {
+            padding-bottom: 0;
+        }
+    }
+
+
+}
+
+.testimonials {
+
+    max-width: 1000px;
+    margin: 0 auto;
+
+    @include until($tablet) {
+        padding: 27px;
+    }
+
+    span>svg {
+        left: 20px;
+        opacity: 0.4;
+        z-index: 0;
+        width: 30px;
+        border-radius: 0;
+        padding: 0;
+    }
+
+    svg {
+        width: 40px;
+        position: relative;
+        z-index: 99;
+        background-color: white;
+        border-radius: 50%;
+        padding: .6em;
+        opacity: .6;
+        transition: .3s ease-in-out all;
+
+        &:hover {
+            opacity: 1;
+        }
+
+        ;
+
+        &:first-child {
+            margin-left: -2em;
+        }
+
+        ;
+    }
+
+    .carousel-cell {
+        border-radius: 10px;
+        padding: 30px;
+    }
+
+    .testimonial-image {
+        display: flex;
+        width: 100%;
+        max-width: 228px;
+
+
+        img {
+            width: 100%;
+            max-width: 61px;
+            border-radius: 50%;
+            margin: auto;
+            box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+        }
+
+        .alt-text {
+            padding-top: 20px;
+        }
+    }
+}
+
+.carousel-cell {
+    width: 44%;
+    height: 340px;
+    margin: 20px;
+    border-radius: 5px;
+
+    @include until($tablet) {
+        width: 100%;
+    }
+}
+
+/* cell number */
+.carousel-cell:before {
+    display: block;
+    text-align: center;
+    line-height: 200px;
+    font-size: 80px;
+    color: white;
+}
+
+.flickity-button {
+    background-color: transparent !important;
+}
+
+.flickity-prev-next-button.next {
+    left: 100% !important;
+}
+
+.flickity-prev-next-button.previous {
+    right: 100% !important;
+    left: inherit;
+}
+
+.gratitude {
+    // display: flex;
+    text-align: left;
+    justify-content: flex-end;
+    padding-left: 4em;
+    margin-top: 4em;
+    width: 100vw;
+
+    h2 {
+        text-align: justify;
+        font-weight: 800;
+        letter-spacing: 1.2px;
+        font-size: 2.3rem;
+        font-style: italic;
+    }
+
+    p {
+        opacity: .7;
+        font-size: 0.85rem;
+        padding-right: 4em;
+    }
+
+    .btn {
+        position: relative;
+        right: 3.5em;
+    }
+
+    background-image: url("../assets/images_proto/Doctofiche-Illustration02.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    @media only screen and (max-width: 1000px) {
+        // background-position: 70% 50%;
+
+        h2 {
+            text-align: left;
+            color: black;
+        }
+    }
+
+
+    .wrapper {
+        width: 100%;
+        max-width: 500px;
+        margin-left: 233px;
+        margin-right: auto;
+
+        .gratitude-button {
+            display: flex;
+        }
+    }
+}
+
+svg.flickity-button-icon {
+    color: #ffffff;
+}
+
+li.dot.is-selected {
+    background: white;
+}
+
+// .subscrib-sec {
+//   background-image: url(../../images/Doctofiche-illustration02.png);
+//   background-repeat: no-repeat;
+//   background-position: center;
+// }
+.logo-img {
+    width: 175px;
+    position: relative;
+    bottom: 5px;
+}
+
+// img {
+//     width: 100%;
+// }
+
+.video-section {
+    @media only screen and (min-width: 1000px) {
+        min-height: 100vh;
+    }
+
+    position:relative;
+    overflow: hidden;
+
+    .blop__second {
+        position: absolute;
+        right: -25%;
+        top: 30%;
+        z-index: -1;
+        height: 400px;
+        width: auto;
+
+
+        @media only screen and (max-width: 1000px) {
+            top: 15%;
+            right: -75%;
+        }
+    }
+}
+
+.video-section h1 {
+    font-style: italic;
+    font-weight: 800;
+    letter-spacing: 1.1px;
+    font-size: 3rem;
+    padding-bottom: 0em;
+    text-align: center;
+}
+
+.video {
+    @media only screen and (max-width: 1100px) {
+        max-width: 90vw;
+    }
+
+    max-width: 1000px;
+    margin: 30px auto;
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    overflow: hidden;
+    positon: relative;
+
+    video {
+        box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+    }
+}
+
+
+.first-sec {
+    .info {
+        text-align: left;
+
+        h1 {
+            padding-bottom: .4em;
+            font-style: italic;
+            font-weight: 800;
+            letter-spacing: 1.1px;
+        }
+
+
+        p {
+            opacity: 0.7;
+
+            letter-spacing: 1.2px;
+            padding-bottom: .5em;
+        }
+
+        @include until($tablet) {
+            // padding: 50px 0;
+        }
+    }
+
+    @include until($tablet) {
+        display: flex;
+        flex-direction: column-reverse;
+        padding-top: 60px;
+
+        .grid-xs-6 {
+            width: 100%;
+        }
+    }
+}
+
+.sec-why {
+    @include until($tablet) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+
+        .grid-xs-6 {
+            width: 100%;
+        }
+
+        .info {
+            width: auto;
+
+            h1 {
+                margin-bottom: 30px;
+            }
+        }
+    }
+
+    @include until($mobile) {
+        padding: 0;
+    }
+}
+
+.log-sign {
+    padding-top: 50px;
+
+    @include until($tablet) {
+        flex-direction: column;
+        margin: auto;
+
+        .grid-xs-6 {
+            width: 100%;
+        }
+    }
+}
+
+.footer-top {
+    .useful-links {
+        .item {
+            a {
+                color: #bfbfbf;
+
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}

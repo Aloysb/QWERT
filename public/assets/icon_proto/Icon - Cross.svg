@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="512" height="512" viewBox="0 0 512 512">
+  <defs>
+    <clipPath id="clip-Icon_-_Cross">
+      <rect width="512" height="512"/>
+    </clipPath>
+  </defs>
+  <g id="Icon_-_Cross" data-name="Icon - Cross" clip-path="url(#clip-Icon_-_Cross)">
+    <g id="Cross" transform="translate(-0.207)">
+      <path id="Path_451" data-name="Path 451" d="M256.168,0C114.912,0,0,114.912,0,256.168S114.912,512.337,256.168,512.337,512.337,397.425,512.337,256.168,397.425,0,256.168,0Zm0,0" fill="#fa9c69"/>
+      <path id="Path_452" data-name="Path 452" d="M350.4,320.213A21.346,21.346,0,1,1,320.213,350.4l-64.147-64.152L191.918,350.4a21.346,21.346,0,0,1-30.188-30.188l64.152-64.147L161.73,191.918a21.346,21.346,0,0,1,30.188-30.188l64.148,64.152,64.147-64.152A21.346,21.346,0,1,1,350.4,191.918L286.25,256.065Zm0,0" transform="translate(0.102 0.102)" fill="#fafafa"/>
+    </g>
+  </g>
+</svg>

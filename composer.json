@@ -1,0 +1,19 @@
+{
+    "name": "radoncode/doctofiche-project",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Radoncode",
+            "email": "relbouni69@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\":"app/"
+        }
+    },
+    "require": {
+        "stripe/stripe-php": "^7.45",
+        "twbs/bootstrap": "^4.5"
+    }
+}

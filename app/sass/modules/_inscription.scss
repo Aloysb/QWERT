@@ -1,0 +1,41 @@
+.main--inscription {
+    .form {
+        flex: 0 1 40%;
+        display: flex;
+        flex-flow: row wrap;
+        @media only screen and (max-width: 1000px) {
+           flex: 1 1 40% !important;
+           padding: 0 4em;
+           justify-content: flex-end;
+        }
+        h3 {
+            padding-top: 0em;
+            font-style: italic;
+            font-weight: 800;
+            line-height: 100%;
+            letter-spacing: 1.1px;
+            font-size: 3rem;
+        }
+        
+        input{
+          margin-top: 1em;
+
+          &::placeholder{
+            opacity: .5;
+            font-size: .8rem;
+          }
+        }
+
+        .pwd_rules{
+          font-size: .8rem;
+          opacity: .5;
+        }
+
+        button{
+          margin-top: 1em;
+                  @media only screen and (max-width: 1000px) {
+           float: right;
+        }
+        }
+    }
+}

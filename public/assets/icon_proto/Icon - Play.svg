@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="512" height="512" viewBox="0 0 512 512">
+  <defs>
+    <clipPath id="clip-Icon_-_Play">
+      <rect width="512" height="512"/>
+    </clipPath>
+  </defs>
+  <g id="Icon_-_Play" data-name="Icon - Play" clip-path="url(#clip-Icon_-_Play)">
+    <g id="Component_4_91" data-name="Component 4 – 91">
+      <path id="Path_279" data-name="Path 279" d="M256,0C397.385,0,512,114.615,512,256S397.385,512,256,512,0,397.385,0,256,114.615,0,256,0Z" fill="#fff"/>
+      <circle id="Ellipse_15" data-name="Ellipse 15" cx="161" cy="161" r="161" transform="translate(95 95)" fill="#fff"/>
+      <g id="shapes-and-symbols" transform="translate(218.839 206.452)">
+        <g id="Group_72" data-name="Group 72">
+          <path id="Path_278" data-name="Path 278" d="M132.906,41.779l-57-39.021A13.914,13.914,0,0,0,68.418,0c-4.262,0-6.9,3.421-6.9,9.146V93.482c0,5.719,2.633,9.133,6.885,9.133a13.8,13.8,0,0,0,7.456-2.764l57.025-39.02c3.667-2.514,5.7-5.9,5.7-9.528S136.577,44.291,132.906,41.779Z" transform="translate(-61.52 0)" fill="#0095d9"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

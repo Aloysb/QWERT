@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="512" height="512" viewBox="0 0 512 512">
+  <defs>
+    <clipPath id="clip-Icon_-_Check">
+      <rect width="512" height="512"/>
+    </clipPath>
+  </defs>
+  <g id="Icon_-_Check" data-name="Icon - Check" clip-path="url(#clip-Icon_-_Check)">
+    <g id="shapes-and-symbols" transform="translate(0.494 0.776)">
+      <path id="Path_365" data-name="Path 365" d="M255.612,0C114.662,0,0,114.662,0,255.612S114.662,511.224,255.612,511.224,511.224,396.562,511.224,255.612,396.562,0,255.612,0Zm0,0" fill="#52ca9c"/>
+      <path id="Path_366" data-name="Path 366" d="M385.38,201.695,246.921,340.149a21.281,21.281,0,0,1-30.118,0l-69.227-69.227A21.3,21.3,0,0,1,177.7,240.8l54.167,54.168,123.4-123.395a21.3,21.3,0,0,1,30.119,30.119Zm0,0" transform="translate(-0.214 -0.251)" fill="#fafafa"/>
+    </g>
+  </g>
+</svg>

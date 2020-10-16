@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="512" height="512" viewBox="0 0 512 512">
+  <defs>
+    <clipPath id="clip-Icon_-_Facebook">
+      <rect width="512" height="512"/>
+    </clipPath>
+  </defs>
+  <g id="Icon_-_Facebook" data-name="Icon - Facebook" clip-path="url(#clip-Icon_-_Facebook)">
+    <g id="Group_17" data-name="Group 17" transform="translate(137.283 -0.927)">
+      <g id="Group_16" data-name="Group 16" transform="translate(0 0)">
+        <path id="Path_7" data-name="Path 7" d="M385.585,981.834v247.989a6.456,6.456,0,0,0,6.467,6.452h92.081a6.455,6.455,0,0,0,6.466-6.452V977.788h66.769a6.468,6.468,0,0,0,6.436-5.916l6.422-75.923a6.472,6.472,0,0,0-6.437-7.017H490.6V835.065A22.864,22.864,0,0,1,513.463,812.2h51.463a6.466,6.466,0,0,0,6.451-6.467v-75.92a6.465,6.465,0,0,0-6.451-6.467H477.98a92.391,92.391,0,0,0-92.395,92.379v73.206H339.545a6.469,6.469,0,0,0-6.466,6.467v75.935a6.456,6.456,0,0,0,6.466,6.454h46.041Z" transform="translate(-333.079 -723.348)" fill="#858585" fill-rule="evenodd"/>
+      </g>
+    </g>
+  </g>
+</svg>

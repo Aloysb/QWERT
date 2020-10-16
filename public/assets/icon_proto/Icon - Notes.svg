@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="512" height="512" viewBox="0 0 512 512">
+  <defs>
+    <clipPath id="clip-Icon_-_Notes">
+      <rect width="512" height="512"/>
+    </clipPath>
+  </defs>
+  <g id="Icon_-_Notes" data-name="Icon - Notes" clip-path="url(#clip-Icon_-_Notes)">
+    <g id="file_2_" data-name="file (2)" transform="translate(21.083)">
+      <path id="Path_1176" data-name="Path 1176" d="M314.813,429.949H59.244A53.3,53.3,0,0,1,6,376.706V57.244A53.3,53.3,0,0,1,59.244,4h255.57a53.3,53.3,0,0,1,53.244,53.244V376.706A53.3,53.3,0,0,1,314.813,429.949ZM59.244,25.3A31.985,31.985,0,0,0,27.3,57.244V376.706a31.985,31.985,0,0,0,31.946,31.946h255.57a31.985,31.985,0,0,0,31.946-31.946V57.244A31.985,31.985,0,0,0,314.813,25.3Z" transform="translate(101.487 81.19)" fill="#858585" stroke="#858585" stroke-width="1"/>
+      <path id="Path_1177" data-name="Path 1177" d="M75.541,447.247h-21.3A53.3,53.3,0,0,1,1,394V53.244A53.3,53.3,0,0,1,54.244,0h255.57a53.3,53.3,0,0,1,53.244,53.244,10.649,10.649,0,1,1-21.3,0A31.985,31.985,0,0,0,309.813,21.3H54.244A31.985,31.985,0,0,0,22.3,53.244V394a31.985,31.985,0,0,0,31.946,31.946h21.3a10.649,10.649,0,0,1,0,21.3Z" transform="translate(0)" fill="#858585" stroke="#858585" stroke-width="1"/>
+      <path id="Path_1178" data-name="Path 1178" d="M191.029,37.3H20.649a10.649,10.649,0,1,1,0-21.3h170.38a10.649,10.649,0,0,1,0,21.3Z" transform="translate(182.677 324.759)" fill="#858585" stroke="#858585" stroke-width="1"/>
+      <path id="Path_1179" data-name="Path 1179" d="M191.029,41.3H20.649a10.649,10.649,0,1,1,0-21.3h170.38a10.649,10.649,0,0,1,0,21.3Z" transform="translate(182.677 405.949)" fill="#858585" stroke="#858585" stroke-width="1"/>
+      <path id="Path_1180" data-name="Path 1180" d="M191.029,33.3H20.649a10.649,10.649,0,1,1,0-21.3h170.38a10.649,10.649,0,0,1,0,21.3Z" transform="translate(182.677 243.57)" fill="#858585" stroke="#858585" stroke-width="1"/>
+      <path id="Path_1181" data-name="Path 1181" d="M191.029,29.3H20.649a10.649,10.649,0,1,1,0-21.3h170.38a10.649,10.649,0,0,1,0,21.3Z" transform="translate(182.677 162.38)" fill="#858585" stroke="#858585" stroke-width="1"/>
+    </g>
+  </g>
+</svg>

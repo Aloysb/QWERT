@@ -1,0 +1,39 @@
+[class^="icon-"] {
+  &:before {
+    @include font-icon;
+  }
+}
+[class^="icon-social"] {
+  &[href*="google"]:before,
+  &.icon-google:before {
+    content: "g";
+  }
+  &[href*="facebook"]:before,
+  &.icon-facebook:before {
+    content: "f";
+  }
+  &[href*="instagram"]:before,
+  &.icon-instagram:before {
+    content: "i";
+  }
+  &[href*="linkedin"]:before,
+  &.icon-linkedin:before {
+    content: "l";
+  }
+  &[href*="pinterest"]:before,
+  &.icon-pinterest:before {
+    content: "p";
+  }
+  &[href*="twitter"]:before,
+  &.icon-twitter:before {
+    content: "t";
+  }
+  &[href*="youtube"]:before,
+  &.icon-youtube:before {
+    content: "y";
+  }
+}
+
+.icon {
+  width: 50px;
+}

@@ -1,0 +1,96 @@
+footer{
+  background-color: #F8F8F8;
+}
+
+.foot {
+  
+  padding-top:1em;
+  color: #bfbfbf;
+  max-width: 1000px;
+
+  @extend %clearfix;
+  display: flex;
+  justify-content: flex-end;
+
+  @include until($tablet) {
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  @include until($mobile) {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .ver-line {
+    padding: 0 20px;
+
+    @include until($tablet) {
+      padding: 0 10px;
+    }
+
+    @include until($mobile) {
+      display: none;
+    }
+  }
+}
+
+
+.footer-container{
+  width: 100%;
+  max-width: 1000px;
+  margin: auto;
+
+  ::placeholder{
+    color: #bfbfbf;
+  }
+
+  .custom-spaacing{
+    padding:40px;
+
+    p{
+
+      color: #bfbfbf;
+    }
+
+    
+     
+
+    
+ 
+  }
+
+  .footer-submit{
+    max-width: 170px;
+    height: 48px;
+    border-radius: 10px;
+  }
+
+ 
+
+ 
+}
+
+.fb-svg{
+  width: 100%;
+  max-width: 32px;
+}
+
+.item{
+  list-style: none;
+  color: #bfbfbf;
+}
+
+.span{
+  border-right: 1px solid #bfbfbf;
+  height: 50px;
+  padding-right: 10px;
+}
+
+.social-icons{
+
+  text-align: center;
+  width: 100%;
+  max-width: 188px;
+}

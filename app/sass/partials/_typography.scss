@@ -1,0 +1,66 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: $headings-color;
+  font-family: $headings-font-family;
+  font-weight: $headings-font-weight;
+  line-height: $headings-line-height;
+  padding: 0;
+
+  a {
+    color: inherit;
+  }
+}
+
+h1,
+.h1 {
+  font-size: 35px;
+  margin: 0;
+
+  @include until($tablet) {
+       
+    font-size: 21px;
+  }
+}
+
+h2,
+.h2 {
+  font-size: 24px;
+  margin: 0 0 10px 0;
+}
+
+h3,
+.h3 {
+  font-size: 18px;
+  margin: 0 0 10px 0;
+}
+
+h4,
+.h4 {
+  font-size: 19px;
+  margin: 0 0 5px 0;
+  color: #0095d9;
+}
+
+h5,
+.h5 {
+  font-size: $font-size-base;
+  margin: 0 0 5px 0;
+}
+
+h6,
+.h6 {
+  font-size: $font-size-base;
+  margin: 0 0 5px 0;
+}
+
+a {
+  color: $link-color;
+}
+
+p {
+  margin: 0 0 1em;
+}

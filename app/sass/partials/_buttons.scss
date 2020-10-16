@@ -1,0 +1,37 @@
+input[type="submit"],
+input[type="button"],
+input[type="reset"],
+button .btn {
+  //width: 100px;
+  border-radius: 10px;
+  padding: 10px 25px;
+  border: 2px solid #0095D9;
+}
+
+.button {
+  //width: 100px;
+  border-radius: 10px;
+  padding: 10px 20px;
+}
+
+.button-secondary {
+  border: 2px solid #0095D9;
+}
+
+.dropdown-menu {
+  left: -75px;
+}
+
+.btn-group {
+  border: 1px solid #0095D9;
+  border-radius: 7px;
+}
+
+.dash-btn-group {
+  width: 100%;
+
+  .active {
+    background-color: #0095D9;
+    color: white;
+  }
+}

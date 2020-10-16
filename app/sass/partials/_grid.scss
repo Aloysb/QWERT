@@ -1,0 +1,137 @@
+.grid {
+  @extend %clearfix;
+
+  position: relative;
+  margin-left: -#{$grid-gutter};
+  margin-right: -#{$grid-gutter};
+}
+
+[class^="grid-"],
+[class*=" grid-"] {
+  // display: inline;
+  // float: left;
+  padding: #{$grid-gutter};
+}
+
+@for $i from 1 through $grid-columns {
+  .grid-xs-#{$i} {
+    width: ($i * (100 / $grid-columns)) * 1%;
+  }
+
+  .offset-xs-#{$i} {
+    margin-left: ($i * (100 / $grid-columns)) * 1%;
+  }
+}
+
+@include at-least($tablet) {
+  @for $i from 1 through $grid-columns {
+    .grid-s-#{$i} {
+      width: ($i * (100 / $grid-columns)) * 1%;
+    }
+
+    .offset-s-#{$i} {
+      margin-left: ($i * (100 / $grid-columns)) * 1%;
+    }
+  }
+}
+
+@include at-least($small-desktop) {
+  @for $i from 1 through $grid-columns {
+    .grid-md-#{$i} {
+      width: ($i * (100 / $grid-columns)) * 1%;
+    }
+
+    .offset-md-#{$i} {
+      margin-left: ($i * (100 / $grid-columns)) * 1%;
+    }
+  }
+}
+
+@include at-least($desktop) {
+  @for $i from 1 through $grid-columns {
+    .grid-#{$i} {
+      width: ($i * (100 / $grid-columns)) * 1%;
+    }
+
+    .offset-#{$i} {
+      margin-left: ($i * (100 / $grid-columns)) * 1%;
+    }
+  }
+}
+
+/* this shoud not be part of it - it is just showing the layout */
+// .column,
+// .column-0 {
+//   // background-color: red;
+//   // height: 200px;
+//   // outline: 1px solid red;
+// }
+
+/* grid start from here */
+
+/**
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clear:before,
+.clear:after {
+  content: " "; /* 1 */
+  display: table; /* 2 */
+}
+
+.clear:after {
+  clear: both; /* clearing the parent to contain the floats*/
+}
+
+.column,
+.column-0 {
+  float: left;
+  margin-bottom: 1.5em; /* the gap betweenn grids*/
+}
+
+// .column {
+//   //margin-right: 2%; /* this is for column gutters - the gaps in between */
+// }
+
+.column:last-child {
+  margin-right: 0;
+  @include until($tablet) {
+    margin: auto;
+  }
+}
+
+/* we put the sizes base on our column gotters calculation*/
+
+/*colum with gutters*/
+.column-2 {
+  width: 49%;
+}
+.column-3 {
+  width: 32%;
+}
+.column-4 {
+  width: 23.5%;
+}
+.column-5 {
+  width: 18.4%;
+}
+
+/*colum without gutters*/
+.column-0-2 {
+  width: 50%;
+}
+.column-0-3 {
+  width: 33.3333%;
+}
+.column-0-4 {
+  width: 25%;
+}
+.column-0-5 {
+  width: 20%;
+}

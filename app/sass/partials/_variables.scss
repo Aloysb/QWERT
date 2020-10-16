@@ -1,0 +1,36 @@
+$font-family-base: 'Uni Neue',"Arial", sans-serif;
+$icon-family-base: "Project Name";
+
+$font-size-base: 14px;
+
+$line-height-base: 1.3;
+
+$text-color: #080808;
+$link-color: #0095D9;
+
+$headings-font-family: $font-family-base;
+$headings-font-weight: 700;
+$headings-line-height: 1.3;
+$headings-color: #000000;
+
+$brand-color: #0095D9;
+$brand-color-alt: #000000;
+
+$mobile: 320px;
+$tablet: 768px;
+$small-desktop: 1280px;
+$desktop: 1480px;
+
+$viewport-increment: 1px;
+
+// layout
+$grid-columns: 12;
+$grid-gutter: 20px;
+
+// header
+$desktop-header-height: 60px;
+$mobile-header-height: 60px;
+$hamburger-height: 21px;
+$hamburger-width: 30px;
+$hamburger-line-height: 3px;
+$hamburger-translateY: ($hamburger-height - $hamburger-line-height) / 2;

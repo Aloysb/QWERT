@@ -1,0 +1,65 @@
+.plan-hero-section {
+  background: url("/images/Doctofiche-Illustration03.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  margin-top: -83px;
+}
+
+.plan-hero .info {
+  padding: 200px 105px !important;
+  padding-right: 0 !important;
+  margin-left: 203px;
+}
+
+.list-group-item {
+  padding: 0.75rem 0;
+  border: none;
+  max-width: 228px;
+  margin: auto;
+  width: 100%;
+}
+
+.card-header {
+  max-width: 228px;
+  margin: auto;
+  width: 100%;
+}
+
+.card {
+  border: none;
+  width: 100% !important;
+}
+
+.card svg {
+  width: 38px !important;
+}
+
+.card-header {
+  background: none !important;
+}
+
+.card-footer {
+  background: none;
+  max-width: 228px;
+  margin: auto;
+  width: 100%;
+}
+
+.subscriotion-text {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.custom-row-width {
+  max-width: 704px !important;
+}
+
+.flickity-page-dots .dot {
+  background: transparent;
+  border: 2px solid #ffffff;
+  opacity: 1;
+  width: 14px;
+  height: 14px;
+}
+/*# sourceMappingURL=plans.css.map */
